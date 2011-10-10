@@ -1,0 +1,18 @@
+import processing.core.*
+@@IMPORTS@@
+
+class App < MP5Applet
+  def OPENGL
+    "processing.opengl.PGraphicsOpenGL"
+  end
+
+  def CENTER
+    3
+  end
+
+@@BODY@@
+end
+
+args = String[1]
+args[0] = "MP5Applet"
+PApplet.runSketch(args, PApplet(App.new))

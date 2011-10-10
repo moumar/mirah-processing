@@ -1,0 +1,6 @@
+#!/bin/sh
+
+REALPATH="$(readlink $0)"
+BASEDIR="$(dirname $REALPATH)/.."
+
+exec java -jar "$BASEDIR/lib/vendor/jruby-complete.jar" $BASEDIR/bin/mr5.rb $@

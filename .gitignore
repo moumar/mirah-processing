@@ -1,0 +1,5 @@
+syntax: glob
+lib/vendor/
+lib/templates/MP5Applet.class
+vendors/jruby-complete-*.jar
+vendors/processing-*.zip

@@ -1,0 +1,11 @@
+import processing.opengl.*
+
+def setup
+  #size(300, 300, OPENGL)
+  size(300, 300)
+  ellipseMode(CENTER)
+end
+
+def draw
+  line(0, 0, width, height)
+end
