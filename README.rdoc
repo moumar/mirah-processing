@@ -1,0 +1,9 @@
+== DESCRIPTION:
+
+mirah language for Processing.
+
+Actually mirah doesn't support some key features, like constants or instance field access, so
+this piece of software is kind of useless. But things go fast and i'll update it as mirah evolves.
+
+http://mirah.org
+http://processing.org
